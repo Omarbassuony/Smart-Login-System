@@ -1,0 +1,54 @@
+body
+{
+    background-color: #24353f;
+    font-family: sans-serif;
+}
+.box
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.box h1
+{
+    color:#17a2b8;
+}
+.box input
+{
+    background-color:#24353f;
+    color: white;
+}
+.box input::placeholder
+{
+    color: gainsboro;
+}
+.box input:focus
+{
+    background-color:#24353f;
+    border-color: #17a2b8; 
+    box-shadow: none;
+    color: white;
+}
+.box button:hover
+{
+    color: white;
+    background-color: #17a2b8;
+}
+.box p a
+{
+    text-decoration:none;
+}
+.box p a:hover
+{
+    text-decoration:underline;
+}
+.navbar
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.nav-link
+{
+    border: orange 1px solid;
+}
+#home
+{
+    height: 75vh;
+}
